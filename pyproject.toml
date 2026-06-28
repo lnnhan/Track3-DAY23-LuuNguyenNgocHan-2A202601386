@@ -23,6 +23,9 @@ dev = [
   "ruff>=0.5.0",
   "mypy>=1.10",
 ]
+google = ["langchain-google-genai>=2.1.0"]
+openai = ["langchain-openai>=0.3.0"]
+anthropic = ["langchain-anthropic>=0.3.0"]
 sqlite = ["langgraph-checkpoint-sqlite>=2.0"]
 postgres = ["langgraph-checkpoint-postgres>=2.0"]
 
